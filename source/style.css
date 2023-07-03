@@ -3641,32 +3641,54 @@ ul.achivement li .medium {
     padding-right: 0;
 }
 
+
+
 /* ============================================================== 
      # Team
 =================================================================== */
 .fixed-shape {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .team-area .fixed-shape {
-  top: -120px;
+    top: -120px;
 }
 
 .team-area .team-items .row {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .team-area .team-items .single-item {
-margin: 30px;
+  margin: 30px;
 }
+
+
+/* .fixed-shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.team-area .fixed-shape {
+    top: -120px;
+}
+
+.team-area .team-items .single-item {
+  margin-bottom: 30px;
+  margin-left: 130px;
+} */
 
 .team-area .team-items .thumb {
     position: relative;
