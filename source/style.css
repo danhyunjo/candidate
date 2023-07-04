@@ -5507,38 +5507,40 @@ footer .f-items .f-item .address li strong {
     display: block;
 }
 
+
+
+
 /* Footer Bottom */
 footer .footer-bottom {
-    border-top: 1px solid #283353;
-    padding: 30px 0;
+  border-top: 1px solid #283353;
+  padding: 30px 0;
 }
 
 footer .footer-bottom ul li {
-    display: inline-block;
-    margin-left: 15px;
+  display: inline-block;
 }
 
 footer .footer-bottom p {
-    margin: 0;
+  margin: 0;
 }
 
 footer.bg-dark .footer-bottom p,
 footer.bg-dark .footer-bottom a {
-  color: #adb5bd;
+color: #adb5bd;
+text-align:left;
 }
 
 footer.bg-dark .footer-bottom a {
-  font-size: 14px;
+font-size: 14px;
 }
 
 footer.bg-dark .footer-bottom p a {
-  color: #4ac4f3;
+color: #4ac4f3;
 }
 
 footer.bg-dark .footer-bottom a:hover {
-  color: #ffffff;
+color: #ffffff;
 }
-
 
 /* ============================================================== 
      # Preloader 

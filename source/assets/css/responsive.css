@@ -259,7 +259,7 @@
   .process-area .thumb {
     margin-bottom: 50px;
     text-align: center;
-    margin-top: 1000px; /*이미지 내릴려면...이부분 수정해야할것 같은데 */ 
+    margin-top: 800px; /*이미지 내릴려면...이부분 수정해야할것 같은데 */ 
    }
 
   .process-area .thumb img {
