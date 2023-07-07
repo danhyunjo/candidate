@@ -410,50 +410,7 @@
 </body>
 </html>
 
-<script>
-    function submitForm(event) {
-      event.preventDefault(); // 폼이 새로 고침 되지 않게 함
-      const emailInput = event.target.elements.email;
-      const email = emailInput.value;
 
-      if (email) {
-        saveEmailToAirtable(email);
-        emailInput.value = ""; // 입력란을 다시 비웁니다.
-      } else {
-        alert("이메일을 입력해주세요.");
-      }
-    }
-
-    function saveEmailToAirtable(email) {
-      const apiUrl = "https://api.airtable.com/v0/applOLxJjRZPMtNB9/Landing_email";
-      const headers = {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer keyN1VpIz2Lvsk934"
-      };
-      const emailData = {
-        "records": [
-          {
-            "fields": {
-              "Email": email
-            }
-          }
-        ]
-      };
-
-      fetch(apiUrl, {
-        method: "POST",
-        headers: headers,
-        body: JSON.stringify(emailData)
-      })
-      .then(response => response.json())
-      .then(data => {
-        console.log('Email 저장 성공:', data);
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-    }
-  </script>
 </body>
 
 </html>
